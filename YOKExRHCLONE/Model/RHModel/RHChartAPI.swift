@@ -14,7 +14,7 @@ struct RHChartAPI {
         
     let symbol: String
     let timeSeriesType: TimeSeriesType
-    var apiKey = "MYFQLOOZ6SJFSSKN"
+    var apiKey = "RHW7R3PNKMMDVM2D" // Free apiKey MYFQLOOZ6SJFSSKN
     
     var fullURL: URL {
         URL(string: "\(Self.baseURL)\(query)")!
